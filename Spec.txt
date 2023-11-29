@@ -1,0 +1,121 @@
+
+Hi, first of all, thank you for accepting this job. This will really help me keep my stuff organized, which will enable me to help my clients in a more efficient manner.
+As you've probably heard, I have a career planning business, with many staff members working under me. We help people navigate their career paths, based on their preferences and areas of expertise. 
+The way we do that is by giving our clients a self-test which shows us the results of 16 career groups, with a different score for each one. 
+*Pls Note: I don't take credit for the actual test. I didn't make it up. It is a method I heard about and have decided to use it to help my clients. That's where I learnt about the 16 career areas.
+
+Between my staff and my clients, we refer to the career groups, as the career clusters, since they do not tell you which job best suits you. They tell you which area you would perform best in. 
+Each of the 16 groups have many jobs that fall under them, that's why we call them career clusters. 
+
+Following are the 16 career clusters: 
+1 - Agriculture, Food & Natural Resources
+2 - Architecture & Construction
+3 - Arts, Audio/Visual Technology & Communications
+4 - Business Management & Administration
+5 - Education & Training 
+6 - Finance 
+7 - Government & Public Administration 
+8 - Health Science
+9 - Hospitality & Tourism
+10 - Human Services
+11 - Information Technology
+12 - Law, Public Safety, Corrections & Security
+13 - Manufacturing 
+14 - Marketing
+15 - Science, Technology, Engineering & Math
+16 - Transportation, Distribution & Logistics
+
+The area where the client scores the highest, is the one we suggest them to look into, but it obviously doesn't only have to be the one with the highest score. We usually try working with the top 3 scores. 
+
+You might wonder what the point of our business is. Why can't people just take the test on their own, and figure themselves out? 
+Well, about the testing part, you're right. People can take the test by themselves, but we also help them weigh the pros and cons of everything, which can be overwhelming for some people. 
+But our job doesn't stop there. We don't just help people choose their career path. We also walk them through the process of achieving that. That is the main thing that attracts people to us. 
+
+Once we know the client's needs, preferences and recommended career group, we help them out. If it's something they need to go to school or take a course for, we help them find the best place to acquire those skills. 
+Once they have acquired their skills, we help them find a job. If the career they want to pursue does not require schooling, we jump right into finding them a job. 
+Since I’m in the career planning field for many years already, I have lots of connections which definitely helps me out with finding jobs for my clients. We generally have top success.
+
+My clients never graduate me. They can always turn to me even once they're working already, if they want to reconsider some things.
+
+Now about your job. I need to have a table to store all my data in. I need to know the client's name (first and last), date of birth, gender (m/f), phone number, and email address.
+I also need to know the three career clusters they scored the most in, and their scores for those areas as well. The career cluster and score, should be in separate columns, and each score should come right after its career cluster.
+The one with the highest score, should be listed first, and should be called 'cluster 1'. Following that should be its score, called 'score 1'. 
+After that should be the 2nd highest one, called 'cluster 2', etc.
+
+I will need a column showing the date they had their first consultation. In addition, I need a column stating whether or not the client is currently seeking a job or not.
+If the client is working already, I need to know the date they started working, what their current occupation is, and which career cluster the job they found falls under.  
+ 
+--Reports
+
+1: Show me a list of all clients who have already found a job. Show me the ones who have found a job the fastest (starting from their first consultation) on top. This will give us an overall glimpse of our success rate. 
+This can also include people that are still working, but are already seeking a new job. Include a column with the number of days it took them to start working.
+The results set should include the following columns in the following order: first name, last name, gender, date started working, current occupation, Number of days until started working
+
+2: We are currently researching whether there are certain areas in which males are stronger than females, and vise versa. Show me a list of the number of females and males per career cluster of their current occupation.
+We don't want to research in which areas they score different on the actual test, but the difference of the actual jobs they land in. This should only include clients that have stated working already. 
+If any of the career clusters have both, male and female, make sure that they are one after the other, this way we can clearly see the comparison. 
+The results set should include the amount of m/f per cluster of current occupation, gender, and career cluster of current occupation.
+
+3: We want to know the average min and max days from the client's first consultation until they found a job. Include only the ones who have started working already.
+
+4: We need a list of clients that are seeking jobs. We need all columns as part of this list, because we will use this list when working on referring them to different places.
+
+5: Sometimes, for printing we like to have a table with the minimal number of columns. for this report you need to show all information, with certain formatting so that there are less columns. 
+First and last name should be shown in one column in the following syntax: "last name, first name".
+Each career cluster and its score should be shown together in one column, separated with a dash.
+Their Phone Number and email address can also be combined separated with a comma.
+
+--Q&A
+
+Q: What is the minimum age for a client to be accepted?
+A: I accept clients that are 18 years old and up.
+
+Q: What is the highest, and what is the lowest score possible for each career cluster, and can you score 1/2 points?
+A: The client is being asked 20 questions on each area, and can receive 1 or 0 points for each question based on their answer, so there are no 1/2 points.
+
+Q: Can a client be seeking a job even though he's currently employed?
+A: Yes. This could mean that he's still working, but is just looking for a new job.
+
+Q: Can a client not be working, but also not be seeking a job at the same time?
+A: Yes. This stage doesn't last for too long, but from the first consultation, until we have figured out what the client would like to do, he will not be seeking a job yet. Yet, the three career clusters and scores must be filled out, because we always start with the test. 
+This means that since we enter our new clients into the system on the day of their first consultation, and we always cover the testing part of the process on the first session, there will not be a case where we enter a client into the system without being tested.
+
+Q: Can a client's job not fall under one of the 3 career clusters they scored most in?
+A: Yes. We can only try our best at helping our clients out, but we can never be certain that they will land in a job that we recommended they choose. 
+
+Q: When did your company open?
+A: On September 9th 2019.
+
+--Following is the sample data you can work with. On the first row, is the columns in the order I listed my sample data.
+
+'Alex', 'Alabama', '2000-09-08', 'M', '347-986-4873', 'alex1@gmail.com', 'Law, Public Safety, Corrections & Security', 19, 'Information Technology', 17, 'Transportation, Distribution & Logistics', 16, '2022-05-25', 0, '2022-08-01', 'Police Officer', 'Law, Public Safety, Corrections & Security'
+'Bill', 'Brown', '1984-06-04', 'M', '718-908-4563', 'wwwbill4563@gmail.com', 'Architecture & Construction', 20, 'Agriculture, Food & Natural Resources', 15, 'Science, Technology, Engineering & Math', 15, '2021-04-03', 0, '2021-09-12', 'Architect', 'Architecture & Construction'
+'Carla', 'Colman', '1990-07-26', 'F', '917-647-9356', 'carlathequeen@gmail.com', 'Information Technology', 18, 'Education & Training', 15, 'Arts, Audio/Visual Technology & Communications', 14, '2023-01-25', 0, '2023-09-02', 'Teacher', 'Education & Training'
+'Daniella', 'Dorman', '2003-12-09', 'F', '917-946-0267', 'daniellathegreat@gmail.com', 'Marketing', 20, 'Manufacturing', 19, 'Business Management & Administration', 16, '2022-11-11', 1, '2023-02-09', 'School Administrator', 'Business Management & Administration'
+'Esther', 'Eichman', '1982-09-08', 'F', '917-425-8920', 'esthereichman8920@gmail.com', 'Health Science', 20, 'Marketing', 19, 'Architecture & Construction', 19, '2019-12-07', 0, '2019-12-29', 'Construction Worker', 'Architecture & Construction'
+'Freda', 'Fischer', '1987-04-25', 'F', '438-576-7775', 'fischerfreeeda@gmail.com', 'Human Services', 18, 'Hospitality & Tourism', 17, 'Health Science', 15, '2020-05-18', 1, null, null, null
+'George', 'Gorman', '1998-10-13', 'M', '718-946-0000', 'george0000gorman946@gmail.com', 'Hospitality & Tourism', 16, 'Transportation, Distribution & Logistics', 16, 'Finance', 16, '2023-04-03', 0, '2023-09-29', 'Mortgage Broker', 'Finance'
+'Harry', 'Hartman', '2001-01-01', 'M', '718-764-3872', 'harrywithegoldenheart@gmail.com', 'Human Services', 20, 'Marketing', 19, 'Business Management & Administration', 19, '2023-11-27', 0, null, null, null
+'Inn', 'Indig', '1986-09-08', 'M', '123-456-7890', 'innindig123go@gmail.com', 'Science, Technology, Engineering & Math', 20, 'Education & Training', 19, 'Transportation, Distribution & Logistics', 14, '2020-09-08', 0, '2021-01-24', 'Lawyer', 'Law, Public Safety, Corrections & Security'
+'Jim', 'Jolly', '1978-04-14', 'M', '514-985-3215', 'jimthejolly@gmail.com', 'Arts, Audio/Visual Technology & Communications', 20, 'Human Services', 19, 'Agriculture, Food & Natural Resources', 16, '2021-12-12', 1, null, null, null
+'Kayla', 'Kalmanovich', '1999-09-09', 'F', '845-987-6543', 'wkaylaw@gmail.com', 'Science, Technology, Engineering & Math', 20, 'Marketing', 19, 'Finance', 18, '2023-01-03', 1, null, null, null 
+'Linda', 'Larry', '2000-01-29', 'F', '718-098-0980', 'lindalarrylinda100@gmail.com', 'Finance', 18, 'Education & Training', 18, 'Architecture & Construction', 18, '2019-10-01', 0, '2021-06-06', 'Mortgage Broker', 'Finance'
+'Maria', 'McDonald', '2000-12-22', 'F', '347-047-1234', 'mariamcdonald@gmail.com', 'Law, Public Safety, Corrections & Security', 19, 'Transportation, Distribution & Logistics', 19, 'Manufacturing', 10, '2021-06-29', 0, '2021-07-01', 'Lawyer', 'Law, Public Safety, Corrections & Security'
+'Nathan', 'Neston', '2004-01-01', 'M', '917-123-4567', 'nathennestonnnn@gmail.com', 'Government & Public Administration', 19, 'Manufacturing', 19, 'Arts, Audio/Visual Technology & Communications', 18, '2023-09-12', 0, '2023-10-31', 'Manufacturer', 'Manufacturing'
+'Olga', 'Ohana', '1987-09-12', 'F', '929-384-2023', 'oo@gmail.com', 'Marketing', 16, 'Government & Public Administration', 16, 'Agriculture, Food & Natural Resources', 15, '2023-05-19', 1, null, null, null 
+'Peter', 'Paty', '1978-09-27', 'M', '845-000-0000', 'peterp@gmail.com', 'Education & Training', 20, 'Finance', 19, 'Science, Technology, Engineering & Math', 18, '2021-12-06', 0, '2022-03-04', 'Teacher', 'Education & Training'
+'Quandra', 'Quelky', '2004-09-08', 'M', '917-845-0690', 'qqqquandraqqqquelkyqqq@gmail.com', 'Agriculture, Food & Natural Resources', 20, 'Hospitality & Tourism', 19, 'Marketing', 15, '2023-01-02', 0, '2023-03-01', 'Farmer', 'Agriculture, Food & Natural Resources'
+Rachel', 'Rasputin', '1995-05-05', 'F', '718-436-9256', 'rachelrasputinrr1234@gmail.com', 'Science, Technology, Engineering & Math', 19, 'Finance', 18, 'Hospitality & Tourism', 15, '2021-06-03', 0, '2021-07-05', 'Tourist', 'Hospitality & Tourism'
+'Silly', 'Sally', '2000-12-22', 'M', '438-098-0981', 'sillysallyisnotsilly@gmail.com', 'Information Technology', 19, 'Marketing', 19, 'Arts, Audio/Visual Technology & Communications', 18, '2019-10-09', 0, '2019-11-23', 'Singer', 'Arts, Audio/Visual Technology & Communications'
+'Tom', 'Tompson', '1986-09-16', 'M', '055-099-1234', 'tomtompsontomsriver@gmail.com', 'Business Management & Administration', 20, 'Finance', 20, 'Information Technology', 15, '2023-09-19', 1, null, null, null
+'Ung', 'Ungar', '2001-12-28', 'M', '718-718-7188', 'ungarunghungary2@gmail.com', 'Business Management & Administration', 18, 'Information Technology', 17, 'Architecture & Construction', 16, '2022-09-12', 1, null, null, null 
+'Vimmy', 'Venezuela', '1983-04-12', 'M', '845-845-8458', 'vimmyvvenezualaisnotarealname@gmail.com', 'Marketing', 18, 'Agriculture, Food & Natural Resources', 18, 'Business Management & Administration', 16, '2023-09-11', 1, null, null, null
+'Wanda', 'Waldo', '2000-03-20', 'F', '347-828-9537', 'wwwwandawaldo@gmail.com', 'Health Science', 20, 'Education & Training', 19, 'Marketing', 19, '2019-12-12', 0, '2023-11-05', 'Doctor', 'Health Science'
+'Xing', 'Xolo', '2000-05-06', 'M', '845-908-7890', 'xingxoloisnotarealname2@gmail.com', 'Transportation, Distribution & Logistics', 19, 'Arts, Audio/Visual Technology & Communications', 18, 'Manufacturing', 14, '2023-03-19', 1, null, null, null
+'Zen', 'Zanny', '1981-08-16', 'M', '347-289-5678', 'zenzannyisaweirdo@gmail.com', 'Agriculture, Food & Natural Resources', 20, 'Manufacturing', 19, 'Arts, Audio/Visual Technology & Communications', 18, '2020-08-02', 0, '2020-09-01', 'Landscaper', 'Agriculture, Food & Natural Resources'
+
+Here is a special promotion just for you! Since I trust that you will do such a great job in organizing my data, you're getting a once in a lifetime opportunity.
+If you are unhappy in your current workspace, you now have the chance to enter yourself into our system, and we will help you find a new job. I will let you take the test by yourself, and enter your info and your test results yourself. 
+Go ahead. Enter all your info, and test results (I'm not really giving you the test, make it up!) and we will try finding you a job ASAP.
+
+Thank you.
