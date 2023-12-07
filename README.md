@@ -1,5 +1,5 @@
 # Career
-I would like to help people out in finding jobs that best suit their needs. To acheive that, I will need a table recording all of my clients' info, so that I have my info handy when needed. This will help me improve my already succesful business.
+I would like to help people out in finding jobs that best suit their needs. To achieve that, I will need a table recording all of my clients' info, so that I have my info handy when needed. This will help me improve my already successful business.
 
 I am asking the public at large to submit database table scripts to implement this database table.
 
