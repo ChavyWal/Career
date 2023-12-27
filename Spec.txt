@@ -88,6 +88,7 @@ A: On September 9th 2019.
 
 --Following is the sample data you can work with. On the first row, is the columns in the order I listed my sample data.
 
+FirstName, LastName, DOB, Gender, PhoneNumber, EmailAddress, Cluster1, Score1, Cluster2, Score2, Cluster3, Score3, DateFirstConsultation, SeekingJob, DateFoundJob, CurrentOccupation, CurrentOccupationCluster
 'Alex', 'Alabama', '2000-09-08', 'M', '347-986-4873', 'alex1@gmail.com', 'Law, Public Safety, Corrections & Security', 19, 'Information Technology', 17, 'Transportation, Distribution & Logistics', 16, '2022-05-25', 0, '2022-08-01', 'Police Officer', 'Law, Public Safety, Corrections & Security'
 'Bill', 'Brown', '1984-06-04', 'M', '718-908-4563', 'wwwbill4563@gmail.com', 'Architecture & Construction', 20, 'Agriculture, Food & Natural Resources', 15, 'Science, Technology, Engineering & Math', 15, '2021-04-03', 0, '2021-09-12', 'Architect', 'Architecture & Construction'
 'Carla', 'Colman', '1990-07-26', 'F', '917-647-9356', 'carlathequeen@gmail.com', 'Information Technology', 18, 'Education & Training', 15, 'Arts, Audio/Visual Technology & Communications', 14, '2023-01-25', 0, '2023-09-02', 'Teacher', 'Education & Training'
