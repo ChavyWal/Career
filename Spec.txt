@@ -43,12 +43,12 @@ The one with the highest score, should be listed first, and should be called 'cl
 After that should be the 2nd highest one, called 'cluster 2', etc.
 
 I will need a column showing the date they had their first consultation. In addition, I need a column stating whether or not the client is currently seeking a job or not.
-If the client is working already, I need to know the date they started working, what their current occupation is, and which career cluster the job they found falls under.  
+If the client is not seeking a job anymore, I need to know the date they started working. I will also need to know what the client's current occupation is, and which career cluster their current job falls under.
  
 --Reports
 
 1: Show me a list of all clients who have already found a job. Show me the ones who have found a job the fastest (starting from their first consultation) on top. This will give us an overall glimpse of our success rate. 
-This can also include people that are already seeking a new job. Include a column with the number of days it took them to start working.
+Include a column with the number of days it took them to start working.
 The results set should include the following columns in the following order: first name, last name, gender, date started working, current occupation, Number of days until started working
 
 2: We are currently researching whether there are certain areas in which males are stronger than females, and vise versa. Show me a list of the number of females and males per career cluster of their current occupation.
@@ -74,7 +74,7 @@ Q: What is the highest, and what is the lowest score possible for each career cl
 A: The client is being asked 20 questions on each area, and can receive 1 or 0 points for each question based on their answer, so there are no 1/2 points.
 
 Q: Can a client be seeking a job even though he's currently employed?
-A: Yes. This could mean that he's still working, but is just looking for a new job.
+A: Yes. This could mean that he's still working, but is just looking for a new job. In such a case, there will be no date found job recorded, but the current occupation as well as the current occupation cluster will be recorded.
 
 Q: Can a client not be working, but also not be seeking a job at the same time?
 A: Yes. This stage doesn't last for too long, but from the first consultation, until we have figured out what the client would like to do, he will not be seeking a job yet. Yet, the three career clusters and scores must be filled out, because we always start with the test. 
@@ -86,13 +86,13 @@ A: Yes. We can only try our best at helping our clients out, but we can never be
 Q: When did your company open?
 A: On September 9th 2019.
 
---Following is the sample data you can work with. On the first row, is the columns in the order I listed my sample data.
+--Following is the sample data you can work with. On the first row, you'll find the columns in the order I listed my sample data.
 
 FirstName, LastName, DOB, Gender, PhoneNumber, EmailAddress, Cluster1, Score1, Cluster2, Score2, Cluster3, Score3, DateFirstConsultation, SeekingJob, DateFoundJob, CurrentOccupation, CurrentOccupationCluster
 'Alex', 'Alabama', '2000-09-08', 'M', '347-986-4873', 'alex1@gmail.com', 'Law, Public Safety, Corrections & Security', 19, 'Information Technology', 17, 'Transportation, Distribution & Logistics', 16, '2022-05-25', 0, '2022-08-01', 'Police Officer', 'Law, Public Safety, Corrections & Security'
 'Bill', 'Brown', '1984-06-04', 'M', '718-908-4563', 'wwwbill4563@gmail.com', 'Architecture & Construction', 20, 'Agriculture, Food & Natural Resources', 15, 'Science, Technology, Engineering & Math', 15, '2021-04-03', 0, '2021-09-12', 'Architect', 'Architecture & Construction'
 'Carla', 'Colman', '1990-07-26', 'F', '917-647-9356', 'carlathequeen@gmail.com', 'Information Technology', 18, 'Education & Training', 15, 'Arts, Audio/Visual Technology & Communications', 14, '2023-01-25', 0, '2023-09-02', 'Teacher', 'Education & Training'
-'Daniella', 'Dorman', '2003-12-09', 'F', '917-946-0267', 'daniellathegreat@gmail.com', 'Marketing', 20, 'Manufacturing', 19, 'Business Management & Administration', 16, '2022-11-11', 1, '2023-02-09', 'School Administrator', 'Business Management & Administration'
+'Daniella', 'Dorman', '2003-12-09', 'F', '917-946-0267', 'daniellathegreat@gmail.com', 'Marketing', 20, 'Manufacturing', 19, 'Business Management & Administration', 16, '2022-11-11', 1, null, 'School Administrator', 'Business Management & Administration'
 'Esther', 'Eichman', '1982-09-08', 'F', '917-425-8920', 'esthereichman8920@gmail.com', 'Health Science', 20, 'Marketing', 19, 'Architecture & Construction', 19, '2019-12-07', 0, '2019-12-29', 'Construction Worker', 'Architecture & Construction'
 'Freda', 'Fischer', '1987-04-25', 'F', '438-576-7775', 'fischerfreeeda@gmail.com', 'Human Services', 18, 'Hospitality & Tourism', 17, 'Health Science', 15, '2020-05-18', 1, null, null, null
 'George', 'Gorman', '1998-10-13', 'M', '718-946-0000', 'george0000gorman946@gmail.com', 'Hospitality & Tourism', 16, 'Transportation, Distribution & Logistics', 16, 'Finance', 16, '2023-04-03', 0, '2023-09-29', 'Mortgage Broker', 'Finance'
