@@ -48,7 +48,7 @@ If the client is working already, I need to know the date they started working, 
 --Reports
 
 1: Show me a list of all clients who have already found a job. Show me the ones who have found a job the fastest (starting from their first consultation) on top. This will give us an overall glimpse of our success rate. 
-This can also include people that are still working, but are already seeking a new job. Include a column with the number of days it took them to start working.
+This can also include people that are already seeking a new job. Include a column with the number of days it took them to start working.
 The results set should include the following columns in the following order: first name, last name, gender, date started working, current occupation, Number of days until started working
 
 2: We are currently researching whether there are certain areas in which males are stronger than females, and vise versa. Show me a list of the number of females and males per career cluster of their current occupation.
