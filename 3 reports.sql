@@ -36,6 +36,7 @@ First and last name should be shown in one column in the following syntax: "last
 Each career cluster and its score should be shown together in one column, separated with a dash.
 Their Phone Number and email address can also be combined separated with a comma.*/
 
-select fullname = CONCAT(c.lastname, ', ', c.Firstname), clusterscore1 = CONCAT(c.cluster1, ' - ', score1), 
-    clusterscore2 = concat(c.cluster2, ' - ', score2), clusterscore3 = concat(c.cluster3, ' - ', score3), contactinfo = concat(c.phonenumber, ', ', c.Emailaddress)
+select fullname = CONCAT(c.lastname, ', ', c.Firstname), clusterscore1 = CONCAT(c.cluster1, ' - ', score1), clusterscore2 = concat(c.cluster2, ' - ', score2), 
+clusterscore3 = concat(c.cluster3, ' - ', score3), contactinfo = concat(c.phonenumber, ', ', c.Emailaddress),c.Seekingjob, c.Gender, c.Dateofbirth,
+ c.DateFoundJob, c.DateFirstConsultation, c.CurrentOccupationCluster, c.CurrentOccupation, c.careerId
 from career c
